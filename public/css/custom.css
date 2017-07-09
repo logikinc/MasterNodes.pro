@@ -1,0 +1,239 @@
+#map {
+    height: 300px;
+    overflow: hidden;
+    padding-bottom: 22.25%;
+    padding-top: 30px;
+    position: relative;
+}
+#lineChart {
+    height: 300px;
+}
+body {
+    color: #FFFFFF;
+    background-color: #041019;
+    font-family: 'Roboto', sans-serif;
+    font-size:13px;
+}
+
+footer {
+    color: #FFFFFF;
+    background-color: #041019;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    height: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+.vr {
+    width: 1px;
+    height: 90px;
+    background-color: #fff;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.vr2 {
+    width: 1px;
+    height: 200px;
+    background-color: #fff;
+}
+
+.mybar > div {
+    float: left;
+}
+
+.bardata {
+    margin-top: 25px;
+    padding-right: 0px;
+}
+
+.bardatatitle {
+    color: #FFFFFF;
+    font-size: 10pt;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.bardatadata {
+    color: #FFFFFF;
+    font-size: 21pt;
+    font-weight: 800;
+}
+
+.bar {
+    margin-top: 25px;
+}
+
+.middle {
+    margin-top: 25px;
+}
+
+.logo {
+    height: 90px;
+}
+
+.Labels {
+    font-weight: 900;
+    font-size: 20pt;
+    padding-bottom: 20px;
+}
+
+.blockdetails {
+  padding-left: 0;
+}
+
+.blockdetails > div {
+    margin-top: 5px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.blockdetails > div > span {
+    font-size: 10pt;
+    font-weight: 900;
+}
+
+.blockdetails > .row > .col-md-2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.blockdetails > row > .col-md-10 {
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+.mybar2 > .bardata > .bardatatitle {
+
+}
+
+.mybar2 > .bardata > .bardatadata {
+
+}
+
+.modal {
+    color: #000000;
+}
+
+.sidebarOpen {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 1;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 250px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Stay on top */
+    top: 0;
+    left: -250px;
+    background-color: #041019; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    border-right: 1px solid #ffffff;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #FFFFFF;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus {
+    color: #818181;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+table.display tbody tr:hover td {
+    background-color: #818181 !important;
+    color: #000000 !important;
+}
+
+.orange {
+    color: #FF8B41;
+}
+
+.blue {
+    color: #1D82AD
+}
+
+.green {
+    color: #78FEAB;
+}
+
+.darkGreen {
+    color: #008080
+}
+
+.purple {
+    color: #6E20F3;
+}
+
+.babyBlue {
+    color: #4EBDE4;
+}
+
+.white {
+
+}
+/* pi */
+
+.pibardata {
+    margin-top: 2px;
+    padding-right: 20px;
+    border-right: 1px solid #ffffff;
+}
+
+.pibardataend {
+    margin-top: 2px;
+    padding-right: 20px;
+}
+
+.pibardatatitle {
+    color: #FFFFFF;
+    font-size: 15vm;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.pibardatadata {
+    color: #FFFFFF;
+    font-size: 20vm;
+    font-weight: 800;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 750px) {
+
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+    footer {
+        height: 35px !important;
+    }
+}
