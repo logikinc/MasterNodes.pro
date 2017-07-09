@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', array('uses' => 'coin@index'));
+Route::get('/callCoinAPIS', array('uses' => 'coin@callCoinAPIS'));
