@@ -25,6 +25,7 @@ class coin extends Controller
 	{
 		$data[0] = 'ion';
 		$data[1] = 'chc';
+		$data[2] = 'pivx';
 		return $data;
 	}
 
